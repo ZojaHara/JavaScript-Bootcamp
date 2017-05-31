@@ -1,0 +1,74 @@
+h2 {
+  font-size: 7vmin;
+  margin-top:7vmin;
+}
+
+.element {
+  width:40vmin;
+  height: 30vmin;
+  background: black;
+  margin: 10vmin auto;
+}
+.hidden {
+  display: none;
+}
+.button {
+  display: block;
+  width: 40vmin;
+  height: 10vmin;
+  background: black;
+  border-radius:20px;
+  color:white;
+  font-size: 4vmin;
+  margin: 10vmin auto;
+}
+
+
+form {
+  width:40%;
+  margin:10vmin auto;
+}
+fieldset {
+  border:none;
+  margin:0;
+  padding:0;
+}
+input, textarea {
+  display: block;
+  width:100%;
+  margin: 4vmin 0;
+  border: 2px solid black;
+  font-size: 2vmin;
+}
+
+input {
+  height:4vmin;
+}
+label {
+  color:rgb(255,50,80);
+}
+.warning {
+  border: 1px solid rgb(255,50,80);
+}
+.warning::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: rgb(255,50,80);
+}
+.warning::-moz-placeholder { /* Firefox 19+ */
+  color: rgb(255,50,80);
+}
+.warning:-ms-input-placeholder { /* IE 10+ */
+  color: rgb(255,50,80);
+}
+.warning:-moz-placeholder { /* Firefox 18- */
+  color: rgb(255,50,80);
+}
+
+.counting-container {
+  width:60%;
+  margin:auto;
+  height:10vmin;
+}
+  .counting {
+    text-align: center;
+    font-size:7vmin;
+  }
